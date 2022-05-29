@@ -6,7 +6,7 @@
 		<button class="btn btn-lg btn-primary mb-4 mb-lg-0" (click)="showContactDialog()">Contact me</button>
 	</div>
 	<div class="image-wrapper">
-		<img src="../../../assets/images/mikkel.png" alt="Mikkel Andersen">
+		<img src="./assets/images/mikkel.png" alt="Mikkel Andersen">
 	</div>
 </section>
 
@@ -14,7 +14,7 @@
 	<h2 class="mb-4">Showcase</h2>
 
 	<div class="card" *ngFor="let project of projectShowcase">
-		<img src="../../../assets/images/{{project.image}}" class="card-img-top" alt="Screenshot of {{ project.title }}">
+		<img src="./assets/images/{{project.image}}" class="card-img-top" alt="Screenshot of {{ project.title }}">
 		<div class="card-body d-flex flex-column">
 			<h3 class="card-title">{{ project.title }}</h3>
 			<p class="card-text">{{ project.description }}</p>
