@@ -1,27 +1,53 @@
-# Portfolio
+# Personal Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+![image](../main/project-image.png?raw=true)
 
-## Development server
+My personal portfolio with examples of my work and a contact form
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+This is my personal portfolio website to show off some of my work and allow people to contact me directly.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The site is made using Angular, Angular Material and Bootstrap.
 
-## Build
+## Built With
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+-   [Angular](https://angular.io/)
+-   [Angular Material](https://material.angular.io/)
+-   [Bootstrap](https://getbootstrap.com/)
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installing
 
-## Running end-to-end tests
+1. Clone the repo:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone git@github.com/mikkelworld/portfolio.git
+```
 
-## Further help
+2. Install the dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm install
+```
+
+### Running
+
+To run the app, run the following command:
+
+```bash
+ng serve --open
+```
+
+## Contributing
+
+To contribute, please open a pull request, and your request will be reviewed.
+
+## Contact
+
+Want to get in touch with me?
+
+[My Facebook](https://www.facebook.com/mikkel.andersen1)
+
+[My Instagram](https://instagram.com/mikkelsen.oo)
