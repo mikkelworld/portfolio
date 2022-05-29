@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![image](../main/project-image.png?raw=true)
+![image](../main/screenshot.png?raw=true)
 
 My personal portfolio with examples of my work and a contact form
 
@@ -12,9 +12,9 @@ The site is made using Angular, Angular Material and Bootstrap.
 
 ## Built With
 
--   [Angular](https://angular.io/)
--   [Angular Material](https://material.angular.io/)
--   [Bootstrap](https://getbootstrap.com/)
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Getting Started
 
