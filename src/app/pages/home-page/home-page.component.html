@@ -1,0 +1,30 @@
+<section class="hero mt-5">
+	<div class="d-flex flex-column align-center align-items-lg-start">
+		<h1 class="">Hey there! I'm Mikkel</h1>
+		<h6 class="display-6 mb-3">I design and code beautiful and modern websites and web apps.</h6>
+		<p>I make everything from small websites for personal or commercial use, to large data-driven web apps for hundreds of users.</p>
+		<button class="btn btn-lg btn-primary mb-4 mb-lg-0" (click)="showContactDialog()">Contact me</button>
+	</div>
+	<div class="image-wrapper">
+		<img src="../../../assets/images/mikkel.png" alt="Mikkel Andersen">
+	</div>
+</section>
+
+<section class="showcase mt-5">
+	<h2 class="mb-4">Showcase</h2>
+
+	<div class="card" *ngFor="let project of projectShowcase">
+		<img src="../../../assets/images/{{project.image}}" class="card-img-top" alt="Screenshot of {{ project.title }}">
+		<div class="card-body d-flex flex-column">
+			<h3 class="card-title">{{ project.title }}</h3>
+			<p class="card-text">{{ project.description }}</p>
+			<div class="d-flex flex-column">
+				<h6>Made with:</h6>
+				<div class="d-flex gap-2 mb-4">
+					<i class="fa-brands tool-icon" [ngClass]="toolIcons[tool].icon.toString()" [ngStyle]="{'color': toolIcons[tool].color}" *ngFor="let tool of project.tools"></i>
+				</div>
+			</div>
+			<a [href]="project.github" class="btn btn-primary mt-auto me-auto"><i class="fa-brands fa-github"></i>View code</a>
+		</div>
+	</div>
+</section>

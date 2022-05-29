@@ -1,0 +1,58 @@
+@import "colors";
+
+header {
+	background-color: white;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	padding: 1rem;
+}
+
+.navigation-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	nav {
+		display: flex;
+		gap: 2rem;
+		align-items: center;
+
+		a,
+		button {
+			background-color: white;
+			text-decoration: none;
+			letter-spacing: 0.025em;
+			color: $color-text;
+			line-height: 2rem;
+			font-size: 18px;
+			font-weight: 700;
+			transition: 0.1s linear;
+
+			&:hover,
+			&.active {
+				color: $color-primary;
+			}
+
+			&.cta {
+				color: $color-primary;
+				border: 2px solid $color-primary;
+				border-radius: 0.33rem;
+				padding: 0.25rem 1.25rem;
+
+				&:hover {
+					background-color: $color-primary;
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.navigation-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
